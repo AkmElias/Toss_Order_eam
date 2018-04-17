@@ -1,0 +1,15 @@
+<RelativeLayout android:id="@+id/Layout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="180dp"
+        android:id="@+id/ImageView01"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bangladesh_head"
+        >
+    </ImageView>
+</RelativeLayout>

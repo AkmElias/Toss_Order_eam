@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="2"
+
+        android:dialogTitle="which country"
+        android:entries="@array/country_preferences"
+        android:entryValues="@array/country_preferences"
+        android:key="key country"
+        android:summary="%s"
+        android:title="Country" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="key sound"
+        android:summary="sound for coin toss"
+        android:title="Sound" />
+    <PreferenceCategory android:title="About">
+
+
+        <Preference
+            android:summary="1.0"
+            android:title="App version" />
+
+        <Preference
+            android:key="key feedback"
+            android:summary="Got any queries? we are happy to help!"
+            android:title="send feedback" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
